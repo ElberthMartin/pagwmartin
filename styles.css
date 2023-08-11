@@ -1,0 +1,83 @@
+/*stil general */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* nav bar */
+.navbar {
+  background-color: #3385ff; 
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px; 
+  font-weight: bold;
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-span {
+  font-size: 32px; 
+  margin-left: 5px; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e0e0e0;
+}
+
+
+.hero {
+  background-color: #f0f0f0;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #777;
+}
+
+.company-name {
+  color: black;
+  font-style: italic;
+}
+
+.hero-description {
+  color: black;
+  font-style: italic;
+}
