@@ -10,9 +10,23 @@ body {
 
 /* nav bar */
 .navbar {
-  background-color: #3385ff; 
+  background: linear-gradient(45deg, #070c65, #0d215f, #3385ff);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s ease infinite;
   color: white;
   padding: 20px 0;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .container {
