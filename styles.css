@@ -214,11 +214,50 @@ body{
   font-size: 56px;
   margin-bottom: 20px;
 }
-
+/*descripcion*/
 .hero p {
-  font-size: 18px;
-  color: #000000;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  text-align: justify;
+  border: 4px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #0000ff, #000000);
+  background-size: 300% 300%;
+  animation: gradientAnimation 3s infinite, borderAnimation 3s infinite;
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: #ffffff;
+    transform: translateX(-10px);
+  }
+  50% {
+    border-color: #000000;
+    transform: translateX(10px);
+  }
+  100% {
+    border-color: #ffffff;
+    transform: translateX(-10px);
+  }
+}
+
+
+
 
 .company-name {
   color: black;
