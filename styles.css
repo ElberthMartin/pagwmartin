@@ -224,7 +224,7 @@ body{
   border: 4px solid #ffffff;
   padding: 10px;
   border-radius: 10px;
-  background: linear-gradient(45deg, #0000ff, #000000);
+  background: linear-gradient(45deg, #0000ff, #db1313);
   background-size: 300% 300%;
   animation: gradientAnimation 3s infinite, borderAnimation 3s infinite;
 }
@@ -243,15 +243,15 @@ body{
 
 @keyframes borderAnimation {
   0% {
-    border-color: #ffffff;
+    border-color: #1860bf;
     transform: translateX(-10px);
   }
   50% {
-    border-color: #000000;
+    border-color: #1900ff;
     transform: translateX(10px);
   }
   100% {
-    border-color: #ffffff;
+    border-color: #0037ff;
     transform: translateX(-10px);
   }
 }
