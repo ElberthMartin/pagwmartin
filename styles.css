@@ -6,6 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
   font-family: Arial, sans-serif;
+  
 }
 
 /* nav bar */
@@ -200,11 +201,7 @@ body{
 }
 
 
-.hero {
-  background-color: #f0f0f0;
-  padding: 100px 0;
-  text-align: center;
-}
+
 /*tech sphere*/
 .hero h1 {
   font-size: 76px;
@@ -215,46 +212,8 @@ body{
   margin-bottom: 20px;
 }
 /*descripcion*/
-.hero p {
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-weight: bold;
-  text-align: justify;
-  border: 4px solid #ffffff;
-  padding: 10px;
-  border-radius: 10px;
-  background: linear-gradient(45deg, #0000ff, #db1313);
-  background-size: 300% 300%;
-  animation: gradientAnimation 3s infinite, borderAnimation 3s infinite;
-}
 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
-@keyframes borderAnimation {
-  0% {
-    border-color: #1860bf;
-    transform: translateX(-10px);
-  }
-  50% {
-    border-color: #1900ff;
-    transform: translateX(10px);
-  }
-  100% {
-    border-color: #0037ff;
-    transform: translateX(-10px);
-  }
-}
 
 
 
@@ -289,13 +248,24 @@ body{
   margin-bottom: 20px;
 }
 
-.cta{
+.cta {
   display: inline-block;
   text-decoration: none;
-  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  background-image: linear-gradient(45deg, #0b00a0 0%, #6ac5f7 50%, #fad0c4 100%);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s linear infinite;
   padding: 12px 15px;
   border-radius: 8px;
-  color: #fff;
+  color: #ffffff;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 
@@ -304,8 +274,8 @@ body{
 /* Info */
 
 .info{
-    background: #f5576c;
-    color: #fff;
+    background: #0004ef;
+    color: #ffffff;
 }
 
 
@@ -335,13 +305,13 @@ body{
 
 .card i{
     margin: 30px 0 20px 0;
-    color: #cc9199;
+    color: #e5ff00;
     font-size: 50px;
 }
 
 .card p{
     font-weight: 300;
-    font-size: 25px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -390,7 +360,7 @@ body{
 /* footer */
 
 footer{
-    background: #f5576c;
+    background: #1100ff;
     color: #fff;
 }
 
@@ -434,7 +404,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     cursor: pointer;
-    color: tomato;
+    color: rgb(19, 0, 225);
     background: #fff;
 }
 
